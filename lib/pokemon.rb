@@ -4,7 +4,7 @@ class Pokemon
   @@all = []
 
   def initialize(id:, name:, type:, db:)
-    
+
   end
 
   def self.save
@@ -12,6 +12,6 @@ class Pokemon
   end
 
   def self.find
-    
+
   end
 end
