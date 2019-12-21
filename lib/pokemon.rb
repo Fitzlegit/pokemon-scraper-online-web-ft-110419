@@ -4,12 +4,14 @@ class Pokemon
   @@all = []
 
   def initialize(id:, name:, type:, db:)
+    
   end
 
   def self.save
-    @@all << self
+    db.execute("INSERT INTO pokemon (name, type) VALUES (?,?)", name, type)
   end
 
   def self.find
+    
   end
 end
